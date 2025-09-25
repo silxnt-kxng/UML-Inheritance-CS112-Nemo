@@ -30,7 +30,7 @@ public abstract class Shape {
 	}
 
 	public boolean isFilled(){
-		return isFilled();
+		return filled;
 	}
 
 }
