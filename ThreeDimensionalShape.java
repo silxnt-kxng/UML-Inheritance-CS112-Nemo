@@ -5,17 +5,11 @@ public class ThreeDimensionalShape {
 		this.material = material;
 	}
 
-	public calculateVolume(){
-		return volume;
-	}
+	public abstract returnType calculateVolume();
 
-	public calculateSurfaceArea(){
-		return center;
-	}
-
-	public setMaterial(String input){
-		material = input;
-	}
+	public abstract returnType calculateSurfaceArea();
+	public setMaterial(String input);
 
 	
 }
+
