@@ -1,21 +1,17 @@
-public class ThreeDimensionalShape {
-	
-	public ThreeDimensionalShape(Point center, String color, boolean filled, String material){
-		super(center, color, filled);
+abstract class ThreeDimensionalShape extends Shape {
+	protected String material;
+
+	public ThreeDimensionalShape(Point center, String color, boolean isFilled, String material){
+		super(center, color, isFilled);
 		this.material = material;
 	}
 
-	public calculateVolume(){
-		return volume;
+	public abstract double calculateVolume();
+	public abstract double calculateSurfaceArea();
+	public void setMaterial(String material){
+		this.material = material;
 	}
-
-	public calculateSurfaceArea(){
-		return center;
+	public String getMaterial(){
+		return material;
 	}
-
-	public setMaterial(String input){
-		material = input;
-	}
-
-	
 }

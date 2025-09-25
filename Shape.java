@@ -18,11 +18,19 @@ public abstract class Shape {
 	}
 
 	public abstract double calculateArea();
-	public abstract double calcuatePerimeter();
+	public abstract double calculatePerimeter();
 	public abstract void draw();
 
 	public void move(Point point) {
 		center = point;
+	}
+
+	public String getColor(){
+		return color;
+	}
+
+	public boolean isFilled(){
+		return isFilled();
 	}
 
 }
