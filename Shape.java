@@ -3,7 +3,7 @@ public abstract class Shape {
 	protected String color;
 	protected boolean filled;
 
-	public void Shape(Point center, String color, boolean filled) {
+	public Shape(Point center, String color, boolean filled) {
 		this.center = center;
 		this.color = color;
 		this.filled = filled;
