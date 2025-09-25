@@ -27,7 +27,7 @@ public class Point {
 
     public double distanceTo(Point point) {
         double distance;
-        distance = sqrt(pow((point.getX()-x), 2) + pow((point.getY()-y),2));
+        distance = Math.sqrt(Math.pow((point.getX()-x), 2.0) + Math.pow((point.getY()-y),2.0));
         return distance;
     }
 }
