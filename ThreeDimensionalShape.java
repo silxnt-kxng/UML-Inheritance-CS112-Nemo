@@ -9,5 +9,13 @@ public class ThreeDimensionalShape {
 		return volume;
 	}
 
+	public calculateSurfaceArea(){
+		return center;
+	}
+
+	public setMaterial(String input){
+		material = input;
+	}
+
 	
 }
