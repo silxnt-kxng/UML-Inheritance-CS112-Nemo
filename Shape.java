@@ -9,8 +9,8 @@ public abstract class Shape {
 		this.filled = filled;
 	}
 
-	public Point getCenter() {
-		return this.center;
+	public String getCenter() {
+		return "(" + center.getX() + ", " + center.getY() + ")";
 	}
 
 	public void setColor(String color) {
