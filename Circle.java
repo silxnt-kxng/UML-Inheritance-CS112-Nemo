@@ -6,11 +6,11 @@ public class Circle {
 	}
 	@Override
 	public double calculateArea(){
-		return math.pi * radius * radius;
+		return Math.PI * radius * radius;
 	}
 	@Override
 	public double calculatePerimeter(){
-		return 2 * math.pi * radius;
+		return 2 * Math.PI * radius;
 	}
 	@Override
 	public void draw(){
