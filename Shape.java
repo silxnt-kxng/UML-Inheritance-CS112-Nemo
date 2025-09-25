@@ -17,12 +17,12 @@ public abstract class Shape {
 		this.color = color;
 	}
 
-	public abstract calculateArea();
-	public abstract calcuatePerimeter();
-	public abstract draw();
+	public abstract double calculateArea();
+	public abstract double calcuatePerimeter();
+	public abstract void draw();
 
-	public void move(Point) {
-		
+	public void move(Point point) {
+		center = point;
 	}
 
 }
