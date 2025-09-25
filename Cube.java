@@ -29,7 +29,6 @@ public class Cube {
         System.out.println("I'm in the draw method for the Cube class");
     }
 
-    @Override
     public void setSideLength(double sideLength){
         this.sideLength = sideLength;
     }
